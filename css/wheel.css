@@ -1,0 +1,1027 @@
+   .cn-wrapper {
+       border-radius: 50%;
+       box-shadow: inset 0px 5px 10px rgba(63,62,78, 0.7);
+       height: 90%;
+       left: 5%;
+       overflow: hidden;
+       position: absolute;
+       top: 5%;
+       width: 90%;
+       z-index: 10;
+   }
+
+   /* class applied to the container via JavaScript that will scale the navigation up */
+   .csstransforms .opened-nav {
+     /* background-color:rgba(0,127,172,0.0); */
+     border-radius: 50%;
+     transform: scale(1);
+   }
+
+  /* STYLE TOOLTIPS */
+
+   /* NAVBUTTON */
+   .center {
+      transform: scale(1);
+       background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,217,253,0.9)), to(rgba(0,127,172,0.9)));
+       background: -webkit-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+       background: -moz-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+       background: -o-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+       background: -ms-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+       background: linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+       background-color:rgba(0,127,172,0.6);
+       border-radius: 50%;
+       box-shadow: inset 0px -30px 20px rgba(0,127,172,1);
+       box-shadow: 0px 5px 10px rgba(63,62,78, 1);
+       color: white; 
+       height: 50%;
+       left: 25%;
+       position: absolute;
+       text-align: Center;
+       top:25%;
+       vertical-align: middle;
+       vertical-align: middle;
+       width: 50%;
+       z-index: 11;
+   }
+   #center {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 3.6vw;
+     font-weight: 800;
+     line-height: 5vw;
+     text-align: Center;
+     z-index: 11;
+   }
+
+   /* LIST ITEMS */
+   #module1 {
+    background-color: rgba(63,62,78, 0.05);
+    height:55%;
+    left: -5%;
+    position: absolute;
+    top: -5%;
+    -moz-transform: rotate(0deg) skew(38.57deg) scale(1);
+    -ms-transform: rotate(0deg) skew(38.57deg) scale(1);
+    -o-transform: rotate(0deg) skew(38.57deg) scale(1);
+    -webkit-transform: rotate(0deg) skew(38.57deg) scale(1);
+    transform: rotate(0deg) skew(38.57deg) scale(1);
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    width:55%;
+    z-index:99;
+    cursor: pointer;
+  }
+  #module1:hover {
+    background-color: rgba(0,127,172,0.9);
+  }
+  #mod1 {
+    background-image: url('../img/svg/modules_entry.svg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius:50%;
+    bottom:12%;
+    height:35%;
+    left:42%;
+    position: absolute;
+    -moz-transform: skew(-38.57deg) rotate(0deg) ;
+    -ms-transform: skew(-38.57deg) rotate(0deg) ;
+    -o-transform: skew(-38.57deg) rotate(0deg) ;
+    -webkit-transform: skew(-38.57deg) rotate(0deg) ;
+    transform: skew(-38.57deg) rotate(0deg) ;
+    width:35%;
+  }
+
+  #module2 {
+    background-color: rgba(63,62,78,0.10);
+    height:55%;
+    left: -5%;
+    position: absolute;
+    top: -5%;
+    -moz-transform: rotate(51.43deg) skew(38.57deg) scale(1);
+    -ms-transform: rotate(51.43deg) skew(38.57deg) scale(1);
+    -o-transform: rotate(51.43deg) skew(38.57deg) scale(1);
+    -webkit-transform: rotate(51.43deg) skew(38.57deg) scale(1);
+    transform: rotate(51.43deg) skew(38.57deg) scale(1);
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    width:55%;
+    cursor: pointer;
+  }
+  #module2:hover {
+    background-color: rgba(0,127,172,0.9);
+  }
+  #mod2 {
+   background-image: url('../img/svg/modules_outdoor.svg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:90%;
+   border-radius:50%;
+   bottom:12%;
+   height:35%;
+   left:42%;
+   position: absolute;
+   -moz-transform: skew(-38.57deg) rotate(-51.43deg) ;
+   -ms-transform: skew(-38.57deg) rotate(-51.43deg) ;
+   -o-transform: skew(-38.57deg) rotate(-51.43deg) ;
+   -webkit-transform: skew(-38.57deg) rotate(-51.43deg) ;
+   transform: skew(-38.57deg) rotate(-51.43deg) ;
+   width:35%;
+  }
+
+  #module3 {
+   background-color: rgba(63,62,78,0.15);
+   height:55%;
+   left: -5%;
+   position: absolute;
+   top: -5%;
+
+   -moz-transform: rotate(102.86deg) skew(38.57deg) scale(1);
+   -ms-transform: rotate(102.86deg) skew(38.57deg) scale(1);
+   -o-transform: rotate(102.86deg) skew(38.57deg) scale(1);
+   -webkit-transform: rotate(102.86deg) skew(38.57deg) scale(1);
+   transform: rotate(102.86deg) skew(38.57deg) scale(1);
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   -webkit-transform-origin: 100% 100%;
+   transform-origin: 100% 100%;
+   width:55%;
+    cursor: pointer;
+  }
+  #module3:hover {
+    background-color: rgba(0,127,172,0.9);
+  }
+  #mod3 {
+   background-image: url('../img/svg/modules_indoor.svg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:90%;
+   border-radius:50%;
+   bottom:12%;
+   height:35%;
+   left:42%;
+   position: absolute;
+   -moz-transform: skew(-38.57deg) rotate(-102.86deg) ;
+   -ms-transform: skew(-38.57deg) rotate(-102.86deg) ;
+   -o-transform: skew(-38.57deg) rotate(-102.86deg) ;
+   -webkit-transform: skew(-38.57deg) rotate(-102.86deg) ;
+   transform: skew(-38.57deg) rotate(-102.86deg) ;
+   width:35%;
+  }
+
+  #module4 {
+   background-color: rgba(63,62,78,0.20);
+   height:55%;
+   left: -5%;
+   position: absolute;
+   top: -5%;
+   -moz-transform: rotate(154.29deg) skew(38.57deg) scale(1);
+   -ms-transform: rotate(154.29deg) skew(38.57deg) scale(1);
+   -o-transform: rotate(154.29deg) skew(38.57deg) scale(1);
+   -webkit-transform: rotate(154.29deg) skew(38.57deg) scale(1);
+   transform: rotate(154.29deg) skew(38.57deg) scale(1);
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   -webkit-transform-origin: 100% 100%;
+   transform-origin: 100% 100%;
+   width:55%;
+    cursor: pointer;
+  }
+  #module4:hover {
+    background-color: rgba(0,127,172,0.9);
+  }
+  #mod4 {
+   background-image: url('../img/svg/modules_contentpush.svg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:90%;
+   border-radius:50%;
+   bottom:12%;
+   height:35%;
+   left:42%;
+   position: absolute;
+   -moz-transform: skew(-38.57deg) rotate(-154.29deg) ;
+   -ms-transform: skew(-38.57deg) rotate(-154.29deg) ;
+   -o-transform: skew(-38.57deg) rotate(-154.29deg) ;
+   -webkit-transform: skew(-38.57deg) rotate(-154.29deg) ;
+   transform: skew(-38.57deg) rotate(-154.29deg) ;
+   width:35%;
+  }
+
+  #module5 {
+   background-color: rgba(63,62,78,0.25);
+   height:55%;
+   left: -5%;
+   position: absolute;
+   top: -5%;
+   -moz-transform: rotate(205.72deg) skew(38.57deg) scale(1);
+   -ms-transform: rotate(205.72deg) skew(38.57deg) scale(1);
+   -o-transform: rotate(205.72deg) skew(38.57deg) scale(1);
+   -webkit-transform: rotate(205.72deg) skew(38.57deg) scale(1);
+   transform: rotate(205.72deg) skew(38.57deg) scale(1);
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   -webkit-transform-origin: 100% 100%;
+   transform-origin: 100% 100%;
+   width:55%;
+    cursor: pointer;
+  }
+  #module5:hover {
+    background-color: rgba(0,127,172,0.9);
+  }
+  #mod5 {
+   background-image: url('../img/svg/modules_localiser.svg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:90%;
+   border-radius:50%;
+   bottom:12%;
+   height:35%;
+   left:42%;
+   position: absolute;
+   -moz-transform: skew(-38.57deg) rotate(-205.72deg) ;
+   -ms-transform: skew(-38.57deg) rotate(-205.72deg) ;
+   -o-transform: skew(-38.57deg) rotate(-205.72deg) ;
+   -webkit-transform: skew(-38.57deg) rotate(-205.72deg) ;
+   transform: skew(-38.57deg) rotate(-205.72deg) ;
+   width:35%;
+  }
+
+  #module6 {
+   background-color: rgba(63,62,78,0.30);
+   height:55%;
+   left: -5%;
+   position: absolute;
+   top: -5%;
+   -moz-transform: rotate(257.15deg) skew(38.57deg) scale(1);
+   -ms-transform: rotate(257.15deg) skew(38.57deg) scale(1);
+   -o-transform: rotate(257.15deg) skew(38.57deg) scale(1);
+   -webkit-transform: rotate(257.15deg) skew(38.57deg) scale(1);
+   transform: rotate(257.15deg) skew(38.57deg) scale(1);
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   -webkit-transform-origin: 100% 100%;
+   transform-origin: 100% 100%;
+   width:55%;
+     cursor: pointer;
+  }
+  #module6:hover {
+    background-color: rgba(0,127,172,0.9);
+  }
+  #mod6 {
+   background-image: url('../img/svg/modules_payments.svg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:90%;
+   border-radius:50%;
+   bottom:12%;
+   height:35%;
+   left:42%;
+   position: absolute;
+   -moz-transform: skew(-38.57deg) rotate(-257.15deg) ;
+   -ms-transform: skew(-38.57deg) rotate(-257.15deg) ;
+   -o-transform: skew(-38.57deg) rotate(-257.15deg) ;
+   -webkit-transform: skew(-38.57deg) rotate(-257.15deg) ;
+   transform: skew(-38.57deg) rotate(-257.15deg) ;
+   width:35%;
+  }
+
+  #module7 {
+   background-color: rgba(63,62,78,0.35);
+   height:55%;
+   left: -5%;
+   position: absolute;
+   top: -5%;
+   -moz-transform: rotate(308.58deg) skew(38.57deg) scale(1);
+   -ms-transform: rotate(308.58deg) skew(38.57deg) scale(1);
+   -o-transform: rotate(308.58deg) skew(38.57deg) scale(1);
+   -webkit-transform: rotate(308.58deg) skew(38.57deg) scale(1);
+   transform: rotate(308.58deg) skew(38.57deg) scale(1);
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   -webkit-transform-origin: 100% 100%;
+   transform-origin: 100% 100%;
+   width:55%;
+    cursor: pointer;
+  }
+  #module7:hover {
+    background-color: rgba(0,127,172,0.9);
+  }
+  #mod7 {
+   background-image: url('../img/svg/modules_geofence.svg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:90%;
+   border-radius:50%;
+   bottom:12%;
+   height:35%;
+   left:42%;
+   position: absolute;
+   -moz-transform: skew(-38.57deg) rotate(-308.58deg) ;
+   -ms-transform: skew(-38.57deg) rotate(-308.58deg) ;
+   -o-transform: skew(-38.57deg) rotate(-308.58deg) ;
+   -webkit-transform: skew(-38.57deg) rotate(-308.58deg) ;
+   transform: skew(-38.57deg) rotate(-308.58deg) ;
+   width:35%;
+  }
+  /* APPLICATIONS ------------------------------------- */ 
+  #apps {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  #apps ul {
+   padding: 30px 0% 4% 2%;
+   position:relative;
+   width: 96%;
+  }
+
+  #apps ul li {
+  position: relative;
+   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(237,237,237,0.3)), to(rgba(63,62,78, 0.3)));
+   background: -webkit-linear-gradient(rgba(237,237,237,0.3), rgba(63,62,78, 0.3));
+   background: -moz-linear-gradient(rgba(237,237,237,0.3), rgba(63,62,78, 0.3));
+   background: -o-linear-gradient(rgba(237,237,237,0.3), rgba(63,62,78, 0.3));
+   background: -ms-linear-gradient(rgba(237,237,237,0.3), rgba(63,62,78, 0.3));
+   background: linear-gradient(rgba(237,237,237,0.3), rgba(63,62,78, 0.3));
+   background-color: rgba(237,237,237,0.3);
+   border-radius: 15px;
+   box-shadow: 2px 2px 5px rgba(63,62,78,0.5);
+   color: rgba(63,62,78, 0.9);
+   display: block;
+   float: left;
+   font-family: 'Engagement', cursive;
+   font-size: 150%;
+   font-weight: 400;
+   line-height: 80px;
+   margin: 0px 3% 20px 3%;
+   text-align: center; 
+   width: 27%;
+   height: 80px;
+  }
+
+  #apps ul li:hover,
+  #apps ul li.active {
+   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,217,253,0.9)), to(rgba(0,127,172,0.9)));
+   background: -webkit-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -moz-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -o-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -ms-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background-color:rgba(0,127,172,0.6);
+   box-shadow: inset 2px 2px 5px rgba(63,62,78,0.5);
+   color: #FFF;
+   cursor: pointer;
+  }
+
+
+
+  /* Modules explained --------------------------- */
+
+  #modex {
+   background-color:rgba(0,127,172,0.6);
+   border-radius: 15px;
+   box-shadow: 2px 2px 3px rgba(63,62,78,0.5);
+   height: 230px;
+   margin: 0px 5% 30px 5%;
+   opacity:0;
+   padding: 0 0 0 0;
+   position: relative;
+   width: 90%;
+  }
+  #textmodimg {
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:100%;
+   float: left;
+   height:150px;
+   width:35%;
+  }
+  #textmod {
+   color: #FFF;
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 800;
+   height:120px;
+   line-height: 25px;
+   margin-top: 40px;
+   padding: 0 6% 0 40%;
+   position: relative;
+   text-align: left;
+   z-index: 11;
+  }
+
+  .imgex1 {
+   background-image: url('../img/svg/modules_entry.svg');
+  }
+  .imgex2 {
+    background-image: url('../img/svg/modules_outdoor.svg');
+  }
+  .imgex3 {
+    background-image: url('../img/svg/modules_indoor.svg');
+  }
+  .imgex4 {
+    background-image: url('../img/svg/modules_contentpush.svg');
+  }
+  .imgex5 {
+    background-image: url('../img/svg/modules_localiser.svg');
+  }
+  .imgex6 {
+    background-image: url('../img/svg/modules_payments.svg');
+  }
+  .imgex7 {
+    background-image: url('../img/svg/modules_geofence.svg');
+  }
+
+  label {
+   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,217,253,0.9)), to(rgba(0,127,172,0.9)));
+   background: -webkit-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -moz-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -o-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -ms-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background-color:rgba(0,127,172,0.6);
+   border: none;
+   box-shadow: 2px 2px 3px rgba(63,62,78,0.5);
+   color: rgba(237,237,237,1);
+   display: block;
+   font-family: 'Engagement', cursive;
+   font-size: 40px;
+   height: 50px;
+   line-height: 50px;
+   padding: 7px 0px 10px 0px;
+   text-align: center;
+   width: 100%;
+  }
+
+  label#appname {
+   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(63,62,78,0.7)), to(rgba(43,42,58,0.9)));
+   background: -webkit-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+   background: -moz-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+   background: -o-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+   background: -ms-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+   background: linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+   background-color: #403f4e;
+   border: none;
+   box-shadow: 2px 2px 3px rgba(63,62,78,0.5);
+   color: rgba(255,255,255,1);
+   display: block;
+   font-family: 'Engagement', cursive;
+   font-size: 40px;
+   line-height: 50px;
+   padding: 7px 0px 10px 0px;
+   text-align: center;
+   width: 100%;
+  }
+  label#explanation {
+   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,217,253,0.9)), to(rgba(0,127,172,0.9)));
+   background: -webkit-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -moz-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -o-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: -ms-linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background: linear-gradient(rgba(0,217,253,0.9), rgba(0,127,172,0.9));
+   background-color:rgba(0,127,172,0.6);
+   border: none;
+   box-shadow: 2px 2px 3px rgba(63,62,78,0.5);
+   color: rgba(255,255,255,1);
+   display: block;
+   font-family: 'Engagement', cursive;
+   font-size: 40px;
+   height: 50px;
+   line-height: 50px;
+   margin-bottom: 30px;
+   text-align: center;
+   width: 100%;
+  }
+  label#titelmod {
+     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(63,62,78,0.7)), to(rgba(43,42,58,0.9)));
+     background: -webkit-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: -moz-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: -o-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: -ms-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background-color: #403f4e;
+     border: none;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     box-shadow: 2px 2px 3px rgba(63,62,78,0.5);
+     color: rgba(255,255,255,1);
+     display: block;
+     font-family: 'Engagement', cursive;
+     font-size: 35px;
+     height:50px;
+     padding: 7px 0px 12px 0px;
+     text-align: center;
+     width: 100%;
+  }
+
+  #backtowheel {
+    top: 30vw;
+    position: fixed;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: rgba(0,217,253,0.6);
+    z-index: 100;
+    right: -25px;
+    box-shadow: -2px 2px 3px rgba(63,62,78,0.5);
+    background-image: url('../img/svg/icons_wheel.svg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:190%;
+    opacity: 0;
+  }
+  #backtowheel:hover {
+    background-color: rgba(63,62,78,0.5);
+
+  }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 480px) {
+
+ /* RAD POSITIONING */
+
+ #wheelcont {
+   height: 100vw;
+   margin: 0vw 0vw 0vw 0vw;
+   position: relative;
+   width: 100%;
+ }
+ #backtowheel {
+  left:-25px;
+ }
+
+}
+
+/* Smartphones (Landscape) Tablet (Portrait)----------- */
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+
+ label {
+   font-size: 40px;
+   height: 40px;
+   line-height: 40px;
+   width: 50vw;
+ }
+ label#appname {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(63,62,78,0.7)), to(rgba(43,42,58,0.9)));
+    background: -webkit-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -moz-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -o-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -ms-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background-color: #403f4e;
+    color:rgba(63,62,78,0.9);
+    float:left;
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -57px;
+    text-align: center;
+    width: 50vw;
+    color: #FFF;
+ }
+ label#explanation {
+   float:left;
+   font-size: 40px;
+   height: 40px;
+   line-height: 40px;
+ }  
+
+ /* RAD POSITIONING */
+
+ #wheelcont {
+   float: left;
+   height: 50vw;
+   margin: 0vw 0vw 0vw 0vw;
+   position: relative;
+   width: 50vw;
+ }
+ #center {
+   font-size: 2vw;
+   line-height: 2.5vw;
+ }
+
+
+ /* APPLICATIONS ------------------------------------- */ 
+ #apps {
+   float:left;
+   height: 50vw;
+   margin-bottom: 0;
+   padding-left:3vw;
+   width: 47vw;
+ }
+ #apps ul {
+   padding: 4vw 0vw 0vw 0vw;
+   width: 42vw;
+ }
+
+ #apps ul li {
+   border-radius: 2vw;
+   font-size: 3.5vw;
+   height:12vw;
+   line-height: 12vw;
+   margin: 0vw 0vw 2vw 1.9vw;
+   width:12vw;
+ }
+ /* Modules Explanation ------------------------- */
+ #modex {
+   background-color:rgba(0,127,172,0.6);
+   border-radius: 3.5vw;
+   float: left;
+   height: 200px;
+   margin: 2w 2vw 2vw 2vw;
+   opacity:0;
+   padding: 0 0 0 0;
+   position: relative;
+   vertical-align: center;
+   width: 46vw;
+ }
+ #modex.ex7 {
+   margin: 2vw 50vw 5vw 2vw;
+
+ }
+ #textmodimg {
+   background-size:100%;
+   float: left;
+   height:60%;
+   width:25%;
+ }
+ #textmod {
+   font-size: 2vw;
+   line-height: 3vw;
+   margin-top: 2.5vw;
+   padding: 0vw 3vw 0vw 15vw;
+ } 
+ label#titelmod {
+   font-size: 35px;
+   height: 40px;
+ }
+}
+
+/* Tablet (Landscape)----------- */
+@media only screen and (min-width: 769px) and (max-width: 1224px) { 
+
+  #wrapper {
+      width: 70vw;
+      padding: 0 15vw 0 15vw;
+  }
+
+  label {
+     border-bottom-left-radius: 1vw;
+     border-top-left-radius: 1vw;
+     font-size: 40px;
+     height: 40px;
+     line-height: 40px;
+     margin-top: 5vw;
+     width: 35vw;
+  }
+  label#appname {
+     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(63,62,78,0.7)), to(rgba(43,42,58,0.9)));
+     background: -webkit-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: -moz-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: -o-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: -ms-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background: linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+     background-color: #403f4e;
+    border-bottom-left-radius: 0vw;
+    border-bottom-right-radius: 1vw;
+    border-top-left-radius: 0vw;
+    border-top-right-radius: 1vw;
+    color:rgba(255,255,255,0.9);
+    float:left;
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -57px;
+    text-align: center;
+    width: 35vw;
+  }
+  label#explanation {
+   border-radius: 1vw;
+   float:left;
+   font-size: 40px;
+   height: 40px;
+   line-height: 40px;
+   width: 70vw;
+  }  
+
+  /* RAD POSITIONING */
+
+  #wheelcont {
+   float: left;
+   height: 35vw;
+   margin: 0vw 0vw 0vw 0vw;
+   position: relative;
+   width: 35vw;
+  }
+  #center {
+   font-size: 1.4vw;
+   line-height: 2vw;
+  }
+
+
+  /* APPLICATIONS ------------------------------------- */ 
+  #apps {
+   float:left;
+   height: 15vw;
+   margin-bottom: 0;
+   padding-left:3vw;
+   width: 32vw;
+  } 
+  #apps ul {
+   padding: 4vw 0vw 0vw 0vw;
+   width: 31vw;
+  }
+
+  #apps ul li {
+   border-radius: 1vw;
+   font-size: 2.3vw;
+   height:7vw;
+   line-height: 7.5vw;
+   margin: 0vw 0vw 1.5vw 1.5vw;
+   width:7vw;
+  }
+  /* Modules Explanation ------------------------- */
+  #modex {
+   background-color:rgba(0,127,172,0.6);
+   border-radius: 2vw;
+   float: left;
+   height: 190px;
+   margin: 2vw 2vw 2vw 2vw;
+   opacity:0;
+   padding: 0vw 0vw 0vw 0vw;
+   position: relative;
+   vertical-align: center;
+   width: 31vw;
+  }
+
+ #modex.ex7 {
+   margin: 2vw 35vw 5vw 2vw;
+ }
+
+  #textmodimg {
+   background-size:70%;
+   float: left;
+   height:60%;
+   width:10vw;
+  }
+  #textmod {
+   font-size: 1.4vw;
+   line-height: 1.8vw;
+   margin-top: 2vw;
+   padding: 0vw 2vw 0vw 10vw;
+  } 
+  label#titelmod {
+   border-bottom-left-radius: 0vw;
+   border-bottom-right-radius: 0vw;
+   border-top-left-radius: 1.5vw;
+   border-top-right-radius: 1.5vw;
+   font-size: 35px;
+   height: 40px;
+   margin-top:0vw;
+  }
+}
+
+@media only screen and (min-width: 1225px) and (max-width: 1600px) {
+  #wrapper {
+     padding: 0 15vw 0 15vw;
+     width: 70vw;
+  }
+
+  label {
+     border-bottom-left-radius: 1vw;
+     border-top-left-radius: 1vw;
+     font-size: 40px;
+     height: 50px;
+     line-height: 50px;
+     margin-top: 5vw;
+     width: 35vw;
+  }
+  label#appname {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(63,62,78,0.7)), to(rgba(43,42,58,0.9)));
+    background: -webkit-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -moz-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -o-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -ms-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background-color: #403f4e;
+    border-bottom-left-radius: 0vw;
+    border-bottom-right-radius: 1vw;
+    border-top-left-radius: 0vw;
+    border-top-right-radius: 1vw;
+    color:rgba(255,255,255,0.9);
+    float:left;
+    font-size: 40px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -67px;
+    text-align: center;
+    width: 35vw;
+  }
+  label#explanation {
+   border-radius: 1vw;
+   float:left;
+   font-size: 40px;
+   height: 50px;
+   line-height: 50px;
+   width: 70vw;
+  }  
+
+  /* RAD POSITIONING */
+
+  #wheelcont {
+   float: left;
+   height: 35vw;
+   margin: 0vw 0vw 0vw 0vw;
+   position: relative;
+   width: 35vw;
+  }
+  #center {
+   font-size: 1.4vw;
+   line-height: 2vw;
+  }
+
+
+  /* APPLICATIONS ------------------------------------- */ 
+  #apps {
+   float:left;
+   height: 15vw;
+   margin-bottom: 0;
+   padding-left:3vw;
+   width: 32vw;
+  } 
+  #apps ul {
+   padding: 4vw 0vw 0vw 0vw;
+   width: 31vw;
+  }
+
+  #apps ul li {
+   border-radius: 1vw;
+   font-size: 2.3vw;
+   height:7vw;
+   line-height: 7.5vw;
+   margin: 0vw 0vw 1.5vw 1.5vw;
+   width:7vw;
+  }
+  /* Modules Explanation ------------------------- */
+  #modex {
+   background-color:rgba(0,127,172,0.6);
+   border-radius: 2vw;
+   float: left;
+   height: 190px;
+   margin: 2vw 2vw 2vw 2vw;
+   opacity:0;
+   padding: 0vw 0vw 0vw 0vw;
+   position: relative;
+   vertical-align: center;
+   width: 31vw;
+  }
+  #textmodimg {
+   background-size:70%;
+   float: left;
+   height:60%;
+   width:10vw;
+  }
+  #textmod {
+   font-size: 1.4vw;
+   line-height: 1.8vw;
+   margin-top: 2vw;
+   padding: 0vw 2vw 0vw 10vw;
+  } 
+  label#titelmod {
+   border-bottom-left-radius: 0vw;
+   border-bottom-right-radius: 0vw;
+   border-top-left-radius: 1.5vw;
+   border-top-right-radius: 1.5vw;
+   font-size: 35px;
+   height: 40px;
+   margin-top:0vw;
+  }
+}
+
+@media only screen and (min-width: 1601px){
+  #wrapper {
+     padding: 0 25vw 0 25vw;
+     width: 50vw;
+  }
+
+  label {
+     border-bottom-left-radius: 1vw;
+     border-top-left-radius: 1vw;
+     font-size: 40px;
+     height: 50px;
+     line-height: 50px;
+     margin-top: 5vw;
+     width: 25vw;
+  }
+  label#appname {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(63,62,78,0.7)), to(rgba(43,42,58,0.9)));
+    background: -webkit-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -moz-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -o-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: -ms-linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background: linear-gradient(rgba(63,62,78,0.7), rgba(43,42,58,0.9));
+    background-color: #403f4e;
+    border-bottom-left-radius: 0vw;
+    border-bottom-right-radius: 1vw;
+    border-top-left-radius: 0vw;
+    border-top-right-radius: 1vw;
+    color:rgba(255,255,255,0.9);
+    float:left;
+    font-size: 40px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -67px;
+    text-align: center;
+    width: 25vw;
+  }
+  label#explanation {
+   border-radius: 1vw;
+   float:left;
+   font-size: 40px;
+   height: 50px;
+   line-height: 50px;
+   width: 50vw;
+  }  
+
+  /* RAD POSITIONING */
+
+  #wheelcont {
+   float: left;
+   height: 25vw;
+   margin: 0vw 0vw 0vw 0vw;
+   position: relative;
+   width: 25vw;
+  }
+  #center {
+   font-size: 1vw;
+   line-height: 1.5vw;
+  }
+
+
+  /* APPLICATIONS ------------------------------------- */ 
+  #apps {
+   float:left;
+   height: 15vw;
+   margin-bottom: 0;
+   padding-left:2vw;
+   width: 23vw;
+  } 
+  #apps ul {
+   padding: 4vw 0vw 0vw 0vw;
+   width: 23vw;
+  }
+
+  #apps ul li {
+   border-radius: 0.6vw;
+   font-size: 1.8vw;
+   height:5vw;
+   line-height: 5vw;
+   margin: 0vw 0vw 1.5vw 1.5vw;
+   width:5vw;
+  }
+  /* Modules Explanation ------------------------- */
+  #modex {
+   background-color:rgba(0,127,172,0.6);
+   border-radius: 1vw;
+   float: left;
+   height: 190px;
+   margin: 1vw 1vw 2vw 1vw;
+   opacity:0;
+   padding: 0vw 0vw 0vw 0vw;
+   position: relative;
+   vertical-align: center;
+   width: 23vw;
+  }
+  #textmodimg {
+   background-size:70%;
+   float: left;
+   height:60%;
+   width:6vw;
+  }
+  #textmod {
+   font-size: 0.9vw;
+   line-height: 1.2vw;
+   margin-top: 1.1vw;
+   padding: 0vw 2vw 0vw 6vw;
+  } 
+  label#titelmod {
+   border-bottom-left-radius: 0vw;
+   border-bottom-right-radius: 0vw;
+   border-top-left-radius: 1vw;
+   border-top-right-radius: 1vw;
+   font-size: 35px;
+   height: 40px;
+   margin-top:0vw;
+  }
+}
